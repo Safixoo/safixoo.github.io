@@ -1,5 +1,46 @@
-.title 
-{
-width: 50%;
-margin: auto;
+body {
+	background-color:white ;
+}
+
+header {
+width: auto;
+margin: 10px;
+height: auto;
+padding: 15px;
+background-color: darkslategray;
+}
+
+a {
+width: auto;
+height: auto;
+padding: 10px;
+background-color: black;
+color: white;
+}
+
+.title {
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+width: 500px;
+height: auto;
+background-color: black;
+color: white;
+}
+
+.subtitle {
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+width: 200px;
+height: auto;
+background-color: black;
+color: white;
+}
+
+p {
+font-size: 20px;
+text-align: center;
 }
