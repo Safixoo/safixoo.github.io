@@ -15,7 +15,7 @@ Lo que proponemos con nuestro sistema es poder acceder de una manera más eficie
 poder reservarlos a cierto horario, con una página donde se enviaran preguntas del email de la página a la bibloteca, donde
 aparecerán datos varios de seguridad y importantes importados por el usuario
 
-<p style="font-align:center"><b>Boceto de preguntar por disponibilidad:</b></p>
+<big><b>Boceto de preguntar por disponibilidad:</b></big>
 <hr>
 <img src="proceso/disponibilidad-bibloteca.png" width="512">
 
