@@ -1,21 +1,15 @@
 body {
-	background-color:white ;
-}
 
-header {
-width: auto;
-margin: 10px;
-height: auto;
-padding: 15px;
-background-color: darkslategray;
-}
-
-a {
-width: auto;
-height: auto;
-padding: 10px;
-background-color: black;
-color: white;
+font-family: monospace;
+color:white;
+text-shadow: black;
+text-shadow: -1px 1px 2px #1D1B1B,
+	             1px -1px 2px #1D1B1B;
+background-image: url(../images/background.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+	
 }
 
 .title {
@@ -27,6 +21,11 @@ width: 500px;
 height: auto;
 background-color: black;
 color: white;
+background-color: rgba(0,0,0,.9);
+border-style: solid;
+border-color: black;
+border-width: 1px;
+
 }
 
 .subtitle {
@@ -38,9 +37,84 @@ width: 200px;
 height: auto;
 background-color: black;
 color: white;
+background-color: rgba(0,0,0,.9);
+border-style: solid;
+border-color: black;
+border-width: 1px;
 }
+
+header {
+width: auto;
+margin: 5px;
+height: auto;
+padding: 20px;
+background-color: rgba(49,79,79,.9);
+border-style: solid;
+border-color: black;
+border-width: 1px;
+}
+
+a {
+width: auto;
+margin-left: 5px;
+height: auto;
+padding: 10px;
+background-color: rgba(0,0,0,.9);
+border: 1px black;
+color: white;
+margin:0;
+text-decoration-line:none;
+font-family: monospace;
+}
+
+
+a:hover {
+width: auto;
+margin-left: 5px;
+height: auto;
+padding: 10px;
+background-color: rgba(0,0,0,.9);
+border: 1px black;
+color: white;
+margin:0;
+text-decoration-line:none;
+font-family: monospace;
+border-style: outset;
+border-color: white;
+}
+
+a:active {
+width: auto;
+margin-left: 5px;
+height: auto;
+padding: 10px;
+background-color: rgba(0,0,0,.9);
+border: 1px black;
+color: white;
+margin:0;
+text-decoration-line:none;
+font-family: monospace;
+}
+
+/*.space {
+	padding:5px;
+	margin-right: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}*/
+	
 
 p {
 font-size: 20px;
 text-align: center;
+background-color: rgba(0,0,0,.9);
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+width: 50%;
+border-style: solid;
+border-color: black;
+border-width: 1px;
 }
