@@ -1,3 +1,5 @@
+<img src="images/favicon.png" width="128">
+<br/>
 # :boom: Project W.E.V :boom:
 <b>W</b>-eb<br/>
 <b>E</b>-fectivamente<br/>
@@ -13,7 +15,7 @@ Sabemos que siempre para buscar libros o buscar sobre su disponibilidad tenemos 
 y preguntar, y si no es el caso esperar o buscar otra manera de conseguir el libro o dato. 
 Lo que proponemos con nuestro sistema es poder acceder de una manera más eficiente a los datos de la disponibilidad de libros y al
 poder reservarlos a cierto horario, con una página donde se enviaran preguntas del email de la página a la bibloteca, donde
-aparecerán datos varios de seguridad y importantes importados por el usuario
+aparecerán datos varios de seguridad y importantes importados por el usuario.
 
 <big><b>Boceto de preguntar por disponibilidad:</b></big>
 <hr>
