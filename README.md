@@ -1,5 +1,5 @@
-# :warning: Project W.E.V :warning:
-<b>W</b>eb <br/>
+# :boom: Project W.E.V :boom:
+<b>W</b>eb<br/>
 <b>E</b>fectivamente <br/>
 <b>V</b>eloz <br/>
 
@@ -15,7 +15,7 @@ Lo que proponemos con nuestro sistema es poder acceder de una manera más eficie
 poder reservarlos a cierto horario, con una página donde se enviaran preguntas del email de la página a la bibloteca, donde
 aparecerán datos varios de seguridad y importantes importados por el usuario
 
-<b>Boceto de preguntar por disponibilidad:</b>
+<p style="font-align:center"><b>Boceto de preguntar por disponibilidad:</b></p>
 <hr>
 <img src="proceso/disponibilidad-bibloteca.png" width="512">
 
