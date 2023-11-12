@@ -1,7 +1,7 @@
 # :warning: Project W.E.V :warning:
-W eb
-E fectivamente
-V eloz
+W eb <br/>
+E fectivamente <br/>
+V eloz <br/>
 
 Projecto de dibujo con el propósito de mejorar la comunicación de información entre los sistemas del liceo y las personas 
 a través de diseño de páginas que faciliten el acceso a cualquier persona. En lo que se centrará el proyecto sobre todo el
@@ -15,7 +15,8 @@ Lo que proponemos con nuestro sistema es poder acceder de una manera más eficie
 poder reservarlos a cierto horario, con una página donde se enviaran preguntas del email de la página a la bibloteca, donde
 aparecerán datos varios de seguridad y importantes importados por el usuario
 
-Boceto de preguntar por disponibilidad:
+<p style="font-weight:bold;text-align: center;"> Boceto de preguntar por disponibilidad: </p>
+<hr>
 <br/>
 <img src="proceso/disponibilidad-bibloteca.png" width="512">
 
