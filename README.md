@@ -17,13 +17,21 @@ Lo que proponemos con nuestro sistema es poder acceder de una manera más eficie
 poder reservarlos a cierto horario, con una página donde se enviaran preguntas del email de la página a la bibloteca, donde
 aparecerán datos varios de seguridad y importantes importados por el usuario.
 
-<big><b>Boceto de preguntar por disponibilidad:</b></big>
+<big><b>Boceto protótipo para preguntar por la disponibilidad:</b></big>
 <hr>
 <img src="proceso/disponibilidad-bibloteca.png" width="512">
 
 
 ## :warning: Cantina :warning:
 
+La cantina como sabemos tiene un menú del día el cuál tenes que preguntar por para reservarlo o ver cuál es, lo que podemos
+encontrar un poco tedioso, además a veces encontramos que puedas de las mesas y sillas de la cantina están ocupadas muchas veces,
+por lo que proponemos hacer con nuestro sistema es agregar una forma de reservar comida de forma más cómoda, de preguntar el menú
+del día y de reservar mesas para estudiar o comer en grupo o solo.
+
+<big><b>Boceto protótipo de reservar mesas cantina:</b></big>
+<hr>
+<img src="proceso/cantina-sistema.png" width="512">
 
 ## :warning: Comunicados (esta por verse) :warning:
 
