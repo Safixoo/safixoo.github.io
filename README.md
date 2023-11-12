@@ -1,9 +1,9 @@
 <img src="images/fondo.png" width="128">
 
 # :boom: Project W.E.V :boom:
-<b>W</b>-eb<br/>
-<b>E</b>-fectivamente<br/>
-<b>V</b>-eloz<br/>
+<b>W</b>eb<br/>
+<b>E</b>fectivamente<br/>
+<b>V</b>eloz<br/>
 
 Projecto de dibujo con el propósito de mejorar la comunicación de información entre los sistemas del liceo y las personas 
 a través de diseño de páginas que faciliten el acceso a la manipulación de la información. En lo que se centrará el proyecto sobre todo el

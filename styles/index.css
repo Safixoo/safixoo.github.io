@@ -57,7 +57,7 @@ border-color: white;
 border-width: 1px;
 }
 
-header {
+nav {
 width: auto;
 margin: 5px;
 height: auto;
@@ -67,7 +67,6 @@ border-color: black;
 border-style: solid;
 border-width: 1px;
 }
-
 
 
 .headtext {
