@@ -38,4 +38,4 @@ del día y de reservar mesas para estudiar o comer en grupo o solo.
 No estamos de que tengamos el tiempo y capacidad necesaria para hacer este sistema, pero se trataría de una página, extensión,
 o app por la cuál se pueda mandar comunicados, notificaciones de cosas que sucedan en el liceo directamente a los celulares
 o dispositivos conectados en forma de notificación formal junto a un artículo en la página, el hacer esto requiere mucho más
-infraestructura de lo que se piensa, lo más posible es que mostremos una demo de tal función simplemente.
+infraestructura de lo que se piensa, lo más posible es que mostremos una demo de tal función simplemente (capaz no).
