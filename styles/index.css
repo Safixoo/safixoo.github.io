@@ -110,8 +110,6 @@ nav {
 	text-decoration-line:none;
 	font-family: monospace;
 	left: 95%;
-
-
 }
 
 
@@ -357,11 +355,11 @@ aside {
 .sumbit {
 	width: 100px;
 	text-align: center;
-	margin: 10px;
+	margin: 4px;
 	background-color: rgba(19,59,99,.9);
 	color: white;
-	height: 20px;
-	font-size: 14px;
+	height: fit-content;
+	font-size: 17px;
 }
 
 

@@ -1,0 +1,66 @@
+<html>
+  <head>
+ 	<meta charset="UTF-8">
+ 	<title>Cantina</title>
+  <link rel="stylesheet" href="../styles/index.css" type="text/css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=2">
+  </head>
+
+  <body>
+  <nav>
+    <div>
+    <img src="images/favicon.png" width="64">
+    <a class="space"></a>
+    <a class="headtext" href="../index.html" title="Inicio">LOBBY/INICIO</a>
+    <a>></a>
+    <!-- <a class="space"></a> -->
+    <a class="headtext" href="bibloteca.html" title="Bibloteca">BIBLOTECA</a>
+    <a class="headtext" href="cantina.html" title="Bibloteca">CANTINA</a>
+    </div>
+  </nav>  
+
+  <aside>
+    <h1 class="asideh1">Contenido</h1>
+    <img class="articles" src="images/fondo.png"></img>
+    <p class="asidep">Página principal</p>
+    <br/>
+    <img class="articles" src="images/bibloteca.png"></img>
+    <p class="asidep">Bibloteca</p>   
+    <br/>
+    <img class="articles" src="images/cantina.png"></img>
+    <p class="asidep-now">Cantina</p>
+</aside> 
+
+<main>
+    <h1 class="title">Comprar el menú del día</h1>
+ 
+    <p class="texto">
+   Para comprar el menú del día de la cantina deje su nombre y datos, más tarde en la<br/> cantina 
+   le haremos pagar por el menú y se lo daremos continuadamente.
+    </p>
+   
+   <div class="subirdatos">
+   <form action="exitoso.html" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" required>
+
+        <br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" required>
+
+        <label for="numero">Número de celular:</label>
+        <input type="text" name="cedula" required>
+
+        <br>
+        <button class="sumbit" value="Subir" href="../index.html">Pedir</button>
+
+        <p>El menú de hoy son $120</p>
+   </div>
+    
+</main>
+
+
+
+</body>
+</html>
