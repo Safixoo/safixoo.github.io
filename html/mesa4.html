@@ -1,0 +1,65 @@
+<html>
+  <head>
+ 	<meta charset="UTF-8">
+ 	<title>Cantina</title>
+  <link rel="stylesheet" href="../styles/index.css" type="text/css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=2">
+  </head>
+
+  <body>
+  <nav>
+    <div>
+    <img src="images/favicon.png" width="64">
+    <a class="space"></a>
+    <a class="headtext" href="../index.html" title="Inicio">LOBBY/INICIO</a>
+    <a>></a>
+    <!-- <a class="space"></a> -->
+    <a class="headtext" href="bibloteca.html" title="Bibloteca">BIBLOTECA</a>
+    <a class="headtext" href="cantina.html" title="Bibloteca">CANTINA</a>
+    </div>
+  </nav>  
+
+  <aside>
+    <h1 class="asideh1">Contenido</h1>
+    <img class="articles" src="images/fondo.png"></img>
+    <p class="asidep">Página principal</p>
+    <br/>
+    <img class="articles" src="images/bibloteca.png"></img>
+    <p class="asidep">Bibloteca</p>   
+    <br/>
+    <img class="articles" src="images/cantina.png"></img>
+    <p class="asidep-now">Cantina</p>
+</aside> 
+
+<main>
+    <h1 class="title">Reserva de la mesa 4</h1>
+ 
+    <p class="texto">
+   Para reservar una mesa en la cantina del liceo deje su nombre y datos </br>
+   a continuación y le haremos pagar más tarde por el precio de las mesas </br>
+   adentro de la cantina.</p>
+   
+   <div class="subirdatos">
+   <form action="process-form.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" required>
+
+        <br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" required>
+
+        <label for="cedula">Cédula:</label>
+        <input type="text" name="cedula" required>
+
+        <br>
+        <button class="sumbit" value="Subir" src="exitoso.html">Subir</button>
+        <p>Serán $75 pesos en total</p>
+   </div>
+    
+</main>
+
+
+
+</body>
+</html>
