@@ -37,6 +37,44 @@
     <p class="asidep">Cantina</p>
 </aside> 
 
+ <h1 class="titlec">Reserva de libros</h1>
+ <h2 class="subtitlec">Ponga tu información de contacto y libro a reservar/preguntar disponibilidad</h2>
 
+
+<div class="subirdatos">
+   <form action="exitoso.html" method="post">
+        <div>
+        <label for="libro" style="text-decoration-line: underline;">Libro requerido:</label>
+        <input type="text" name="libro" required>
+        </div>
+        <br>
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" required>
+<br/><br/>
+
+        <label for="apellido">Apellido:</label>
+
+        <input type="text" name="apellido" required>
+<br/><br/>
+        <label for="info">Contacto:</label>
+        <select id="info" name="info">
+            <option value="name">Celular</option>
+            <option value="age">Email</option>
+            <option value="city">Teléfono</option>
+        </select>
+        <input type="text" name="info" required>
+<br/><br/>
+        <label for="info">Reserva o pregunta:</label>
+        <select id="info" name="info">
+            <option value="reserva">Reserva</option>
+            <option value="pregunta">Pregunta</option>
+        </select>
+        
+
+        <br/><br/>
+        <button class="sumbit" value="Subir" href="../index.html">Acción</button>
+
+        <p></p>
+   </div>
  </body>
 </html>
