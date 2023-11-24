@@ -2,9 +2,10 @@
   <head>
  	<meta charset="UTF-8">
  	<title>Cantina</title>
-  <link rel="stylesheet" href="../styles/index.css" type="text/css">
-  <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=2">
-  
+    <script type="text/javascript" src="../javascript/domaincheck.js"></script>
+    
+    <link rel="stylesheet" href="styles/index.css" type="text/css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=2">
   </head>
 
  <body>
@@ -12,12 +13,11 @@
     <div>
     <img src="images/favicon.png" width="64">
     <a class="space"></a>
-    <a class="headtext" href="../index.html" title="Inicio">LOBBY/INICIO</a>
-    <a>></a>
-    <!-- <a class="space"></a> -->
-    <a class="headtext" href="bibloteca.html" title="Bibloteca">BIBLOTECA</a>
-    <a class="headtext" href="cantina.html" title="Cantina">CANTINA</a>
-    <a class="headtextright" href="login.html" title="Iniciar sesión">INICIAR SESIÓN</a>
+    <a class="headtext" href="index.html" title="Inicio">LOBBY/INICIO</a>
+    
+    <a class="headtext" href="html/bibloteca.html" title="Bibloteca">BIBLOTECA</a>
+    <a class="headtext" href="html/cantina.html" title="Cantina">CANTINA</a>
+    <a class="headtextright" href="html/login.html" title="Iniciar sesión">INICIAR SESIÓN</a>
     </div>
   </nav>  
  
@@ -59,43 +59,17 @@
     <br/>
     <img class="articles" src="images/cantina.png"></img>
     <p class="asidep-now">Cantina</p>
-</aside> 
+  </aside> 
 
 <main class="maincantina">
     <h1 class="titlec">Menú del día</h1>
     <p class="texto">
    La comida del día de hoy es... </p>
    <h2 id="comida" class="subtitle"></h2>
-   <p class="texto"><a href="rcomida.html">Reservar</a></p>
+   <p class="texto"><a href="html/rcomida.html">Reservar</a></p>
 </main>
 
-
-
-
-<script>
-   function getRandomInt(max) {
-    return Math.floor(Math.random() * max);
-}
-let comidaa;  // Declare the variable outside the switch statement
-switch (getRandomInt(4)) {
-    case 0:
-        comidaa = "Minalesa";
-        break;
-    case 1:
-        comidaa = "Estofado";
-        break;
-    case 2:
-        comidaa = "Arroz";
-        break;
-    case 3:
-        comidaa = "Huevo";
-        break;
-    default:
-        comidaa = "Bondiola";
-        break;
-}
-document.getElementById("comida").innerHTML = comidaa;
-  </script>
+<script type="text/javascript" src="javascript/randomFood.js"></script>
 
  </body>
 </html>

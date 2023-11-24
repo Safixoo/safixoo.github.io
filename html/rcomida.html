@@ -1,9 +1,11 @@
 <html>
   <head>
  	<meta charset="UTF-8">
- 	<title>Cantina</title>
-  <link rel="stylesheet" href="../styles/index.css" type="text/css">
-  <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=2">
+  <title>Comida</title>
+    <script type="text/javascript" src="../javascript/domaincheck.js"></script>
+    
+    <link rel="stylesheet" href="styles/index.css" type="text/css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=2">
   </head>
 
   <body>
@@ -11,11 +13,11 @@
     <div>
     <img src="images/favicon.png" width="64">
     <a class="space"></a>
-    <a class="headtext" href="../index.html" title="Inicio">LOBBY/INICIO</a>
-    <a>></a>
-    <!-- <a class="space"></a> -->
-    <a class="headtext" href="bibloteca.html" title="Bibloteca">BIBLOTECA</a>
-    <a class="headtext" href="cantina.html" title="Bibloteca">CANTINA</a>
+    <a class="headtext" href="index.html" title="Inicio">LOBBY/INICIO</a>
+    
+    <a class="headtext" href="html/bibloteca.html" title="Bibloteca">BIBLOTECA</a>
+    <a class="headtext" href="html/cantina.html" title="Cantina">CANTINA</a>
+    <a class="headtextright" href="html/login.html" title="Iniciar sesión">INICIAR SESIÓN</a>
     </div>
   </nav>  
 
@@ -40,7 +42,7 @@
     </p>
    
    <div class="subirdatos">
-   <form action="exitoso.html" method="post">
+   <form action="html/exitoso.html" method="post">
         <label for="nombre">Nombre:</label>
         <input type="text" name="nombre" required>
 
@@ -53,7 +55,7 @@
         <input type="text" name="cedula" required>
 
         <br>
-        <button class="sumbit" value="Subir" href="../index.html">Pedir</button>
+        <button class="sumbit" value="Subir" href="index.html">Pedir</button>
 
         <p>El menú de hoy son $120</p>
    </div>
