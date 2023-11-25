@@ -1,49 +1,58 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
- 	<meta charset="UTF-8">
- 	<title>Bibloteca</title>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio</title>
     <script type="text/javascript" src="../javascript/domaincheck.js"></script>
-    
-    <link rel="stylesheet" href="styles/index.css" type="text/css">
+    <link rel="stylesheet" href="styles/default.css" type="text/css">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=2">
+    
   </head>
 
  <body>
   <nav>
-    <div>
-    <img src="images/favicon.png" width="64">
-    <a class="space"></a>
-    <a class="headtext" href="index.html" title="Inicio">LOBBY/INICIO</a>
     
-    <a class="headtext" href="html/bibloteca.html" title="Bibloteca">BIBLOTECA</a>
-    <a class="headtext" href="html/cantina.html" title="Cantina">CANTINA</a>
-    <a class="headtextright" href="html/login.html" title="Iniciar sesión">INICIAR SESIÓN</a>
+    <div class="navtext">
+      <img src="images/favicon.png" width="64" class="stay">
+      <a href="index.html" title="Inicio" class="stay">PÁGINA PRINCIPAL</a>
+      <span>></span>
+      <a href="html/bibloteca.html" title="Bibloteca" class="stay">BIBLOTECA</a>
+      <a href="html/cantina.html" title="Cantina" class="stay">CANTINA</a>
+      <span>></span>
+      <a title="Proyectos">OTROS PROYECTOS</a>
+      <a title="Contacto">CONTACTO</a>
+
+      <a class="navtext-right" href="html/login.html" title="Iniciar sesión">INICIAR SESIÓN</a>
+
     </div>
-  </nav>  
+  </nav> 
 
 <aside>
-    <h1 class="asideh1">Contenido</h1>
-    
+    <div>
+    <h1>Contenido</h1>
+
     <img class="articles" src="images/fondo.png"></img>
-    <p class="asidep">Página principal</p>
+    <span>Página principal</span>
 
     <br/>
 
     <img class="articles" src="images/bibloteca.png"></img>
-    <p class="asidep-now">Bibloteca</p>
-
+    <span>Bibloteca</span>
+    
     <br/>
 
     <img class="articles" src="images/cantina.png"></img>
-    <p class="asidep">Cantina</p>
-  </aside> 
+    <span>Cantina</span>
+    </div>
+  </aside>
 
+<main>
  <h1 class="titlec">Reserva de libros</h1>
  <h2 class="subtitlec">Ponga tu información de contacto y libro a reservar/preguntar disponibilidad</h2>
 
-
 <div class="subirdatos">
-   <form action="exitoso.html" method="post">
+   <form action="" method="POST">
         <div>
         <label for="libro" style="text-decoration-line: underline;">Libro requerido:</label>
         <input type="text" name="libro" required>
@@ -54,28 +63,27 @@
 <br/><br/>
 
         <label for="apellido">Apellido:</label>
-
         <input type="text" name="apellido" required>
 <br/><br/>
         <label for="info">Contacto:</label>
-        <select id="info" name="info">
+        <select id="infoi" name="info">
             <option value="name">Celular</option>
             <option value="age">Email</option>
             <option value="city">Teléfono</option>
         </select>
         <input type="text" name="info" required>
 <br/><br/>
-        <label for="info">Reserva o pregunta:</label>
-        <select id="info" name="info">
+        <label for="info2">Reserva o pregunta:</label>
+        <select id="info2i" name="info2">
             <option value="reserva">Reserva</option>
             <option value="pregunta">Pregunta</option>
         </select>
         
 
         <br/><br/>
-        <button class="sumbit" value="Subir" href="index.html">Acción</button>
+        <button class="sumbit" value="Subir" href="">Acción</button>
 
-        <p></p>
    </div>
+</main>
  </body>
 </html>
