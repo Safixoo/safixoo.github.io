@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Inicio</title>
     <script type="text/javascript" src="../javascript/domaincheck.js"></script>
-  
     <link rel="stylesheet" href="styles/default.css" type="text/css">
-    <link rel="stylesheet" href="styles/etc.css" type="text/css">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=2">
     
   </head>
@@ -29,36 +27,8 @@
 
     </div>
   </nav> 
- 
- 
-<div class="CantinaMap">
-  <div class="MCantina">Cantina</div>
-  
-  <div class="Mesa1" >
-  <a href="mesa1.html" style="color:white" target="_blank"> $75 <br/>
-  (4 sillas)</a>
-</div>
 
-<div class="Mesa2" >
- <a href="mesa2.html" style="color:white" target="_blank"> $75 <br/>
-  (4 sillas)</a>
-</div>
-
-<div class="Mesa3" >
- <a href="mesa3.html" style="color:white" target="_blank">$150 
-  (6 sillas)</a>
-</div>
-
-<div class="Mesa4" X>
- <a href="mesa4.html" style="color:white" > $75 <br/>
-  (4 sillas)</a>
-</div>
-
-<img src="images/entrada.png" class="entrada"></img>
-<p class="textoentrada">Entrada</p>
-</div>
-
- <aside>
+<aside>
     <div>
     <h1>Contenido</h1>
 
@@ -77,15 +47,43 @@
     </div>
   </aside>
 
-<main class="maincantina">
-    <h1 class="titlec">Menú del día</h1>
-    <p class="texto">
-   La comida del día de hoy es... </p>
-   <h2 id="comida" class="subtitle"></h2>
-   <p class="texto"><a href="html/rcomida.html">Reservar</a></p>
+<main>
+ <h1 class="titlec">Reserva de libros</h1>
+ <h2 class="subtitlec">Ponga tu información de contacto y libro a reservar/preguntar disponibilidad</h2>
+
+<div class="subirdatos">
+   <form action="" method="POST">
+        <div>
+        <label for="libro" style="text-decoration-line: underline;">Libro requerido:</label>
+        <input type="text" name="libro" required>
+        </div>
+        <br>
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" required>
+<br/><br/>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" required>
+<br/><br/>
+        <label for="info">Contacto:</label>
+        <select id="info" name="info">
+            <option value="name">Celular</option>
+            <option value="age">Email</option>
+            <option value="city">Teléfono</option>
+        </select>
+        <input type="text" name="info" required>
+<br/><br/>
+        <label for="info2">Reserva o pregunta:</label>
+        <select id="info2" name="info2">
+            <option value="reserva">Reserva</option>
+            <option value="pregunta">Pregunta</option>
+        </select>
+        
+
+        <br/><br/>
+        <button class="sumbit" value="Subir" href="">Acción</button>
+
+   </div>
 </main>
-
-<script type="text/javascript" src="javascript/randomFood.js"></script>
-
  </body>
 </html>

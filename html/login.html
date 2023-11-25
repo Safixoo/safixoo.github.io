@@ -1,48 +1,58 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-  <meta charset="UTF-8">
-  <title>Hub</title>
-  <link rel="stylesheet" href="../styles/index.css" type="text/css">
-  <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=2">
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio</title>
+    <script type="text/javascript" src="../javascript/domaincheck.js"></script>
+    <link rel="stylesheet" href="styles/default.css" type="text/css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=2">
+    
   </head>
 
  <body>
   <nav>
-    <div>
-    <img src="images/favicon.png" width="64">
-    <a class="space"></a>
-    <a class="headtext" href="" title="Inicio">LOBBY/INICIO</a>
-    <a>></a>
-    <!-- <a class="space"></a> -->
-    <a class="headtext" href="bibloteca.html" title="Bibloteca">BIBLOTECA</a>
-    <a class="headtext" href="cantina.html" title="Cantina">CANTINA</a>
-    <a class="headtextright" href="login.html" title="Iniciar sesión">INICIAR SESIÓN</a>
+    
+    <div class="navtext">
+      <img src="images/favicon.png" width="64" class="stay">
+      <a href="index.html" title="Inicio" class="stay">PÁGINA PRINCIPAL</a>
+      <span>></span>
+      <a href="html/bibloteca.html" title="Bibloteca" class="stay">BIBLOTECA</a>
+      <a href="html/cantina.html" title="Cantina" class="stay">CANTINA</a>
+      <span>></span>
+      <a title="Proyectos">OTROS PROYECTOS</a>
+      <a title="Contacto">CONTACTO</a>
+
+      <a class="navtext-right" href="html/login.html" title="Iniciar sesión">INICIAR SESIÓN</a>
+
     </div>
   </nav> 
 
   <aside>
-    <h1 class="asideh1">Contenido</h1>
+    <div>
+    <h1>Contenido</h1>
 
     <img class="articles" src="images/fondo.png"></img>
-    <p class="asidep-now">Página principal</p>
+    <span>Página principal</span>
 
     <br/>
 
     <img class="articles" src="images/bibloteca.png"></img>
-    <p class="asidep">Bibloteca</p>
+    <span>Bibloteca</span>
     
     <br/>
 
     <img class="articles" src="images/cantina.png"></img>
-    <p class="asidep">Cantina</p>
-</aside> 
+    <span>Cantina</span>
+    </div>
+  </aside>
 
   <main>
     <h1 class="title">Inicio de sesión</h1>
     <h2 class="subtitle">(solo para  personal de cantina)</h2>
 
     <div class="subirdatos">
-   <form action="../index.html" method="post">
+   <form action="index.html" method="post">
         <label for="usuario">Nombre:</label>
         <input type="text" name="nombre" required>
 
@@ -52,7 +62,7 @@
         <input type="password" name="apellido" required>
 
         <br>
-        <button class="sumbit" value="Subir" href="../index.html">Iniciar sesión</button>
+        <button class="sumbit" value="Subir" href="index.html">Iniciar sesión</button>
 
    </div>
  
