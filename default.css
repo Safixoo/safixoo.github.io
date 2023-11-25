@@ -1,0 +1,280 @@
+@media screen and (min-width:1330px){
+body {
+	font-family: monospace;
+	color: white;
+	text-shadow: 2px 3px 5px rgba(0,0,0,0.99);
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 150%;
+ }
+}
+
+@media screen and (max-width:1330px){
+body {
+	display: flex;
+	flex-direction: column;
+	font-family: monospace;
+	color: white;
+	text-shadow: 2px 3px 5px rgba(0,0,0,0.99);
+	background-image: url(../images/background.jpg);
+	background-repeat: repeat-y;
+	background-attachment: fixed;
+	background-size: 150%;
+ }
+}
+
+/* BARRA DE NAVEGACIÓN */
+
+nav {
+	padding: 20px;
+	background-color: rgba(49,79,79,.9);
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	margin-bottom: 0.7%;
+	font-size: 1.15em;
+}
+
+.navtext * {
+	color: white;
+}
+
+
+.navtext a:first-of-type {
+	margin-left: 4.5em;
+	padding: 11px 14px 11px 14px;
+}
+
+
+.navtext a {
+	margin-left: 5px;
+	height: auto;
+	padding: 10px;
+	background-color: rgba(0,0,0,.9);
+	margin:0;
+	text-decoration-line:none;
+	font-family: monospace;
+}
+
+.navtext-right {
+	position: sticky;
+	left: 95%;
+}
+
+
+.navtext a:hover {
+	border: 1px;
+	border-style: outset;
+	border-color: white;
+}
+
+.navtext a:active {
+	text-shadow: -2px 0px 15px rgba(232, 255, 26, 1);;
+	border-color: rgb(232, 255, 26);
+	color: rgb(232, 255, 26);
+}
+
+.navtext img {
+	position: absolute;
+    top: 0.5em;
+    left: 1.5em;
+}
+
+@media screen and (max-width:1330px){
+	.navtext * {
+		display: none;
+	}
+
+	.stay {
+		display: initial;
+		font-size: 12px;
+
+	}
+}
+
+
+/* CONTENIDO PRINCIPAL DE PÁGINA */
+
+@media (min-width: 1330px) {
+main {
+	margin-right: 17em;
+ }
+}
+
+main h1 {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	padding: 10px;
+	max-width: max-content;
+    width: 70%;
+	height: auto;
+	color: white;
+	background-color: rgba(0,0,0,.9);
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+}
+
+main h2 {
+	text-align: center;
+	margin: 2px auto 2px auto;
+	padding: 10px;
+	margin-top: 0;
+	width: 200px;
+	height: auto;
+	color: white;
+	background-color: rgba(47.813,47.813,47.813,.9);
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+}
+
+main p {
+	font-size: 20px;
+	text-align: center;
+	background-color: rgba(0,0,0,.9);
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px 15px;
+    max-width: max-content;
+    width: 70%;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	color: white;
+	margin-top: 0;
+}
+
+/* CONTENIDO DEL COSTADO */
+
+aside {
+	margin-top: 1em;
+	float:right;
+	position: relative;
+	background-color: #ddd;
+    width: fit-content;
+	height: fit-content;
+	background-color: rgba(49,79,79,.9);
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 1%;
+  }
+
+
+
+@media (max-width: 1330px) {
+aside {
+	/* SIEMPRE SE VERA MEJOR SI NO SE VE
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	margin-bottom: 1em;
+	position: relative;
+	background-color: #ddd;
+    width: fit-content;
+	height: fit-content;
+	background-color: rgba(49,79,79,.9);
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 1%;
+	*/
+	display: none;
+  }
+}
+
+@media (min-width: 1320px) {
+aside {
+	margin-top: 1em;
+	float:right;
+	position: relative;
+	background-color: #ddd;
+	width: fit-content;
+    width: fit-content;
+	height: fit-content;
+	background-color: rgba(49,79,79,.9);
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 1%;
+  }
+}
+
+
+aside h1 {
+	font-size: 2.5em;
+	text-align: center;
+	color:white;
+	text-decoration-line: underline;
+    margin: 3%;
+}
+
+aside img {
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	position: relative;
+	float:right;
+	width: 68%;
+	height: 8em;
+	background-color: white;
+	position: relative;
+	padding: 1% 1% 1% 1%;
+	margin: 2% 12% 0 0;
+}
+
+aside span {
+	font-size: 2em;
+	text-align: center;
+	color:white;
+	display: table;
+    margin: 0 auto;
+}
+
+aside span:hover {
+	font-weight: bold;
+	text-shadow: -2px 0px 15px rgba(232, 255, 26, 1);;
+	text-decoration-line: underline;
+	text-decoration-style: solid;
+}
+
+
+.subirdatos {
+	font-size: 17px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 190px;
+	background-color: rgba(49,79,79,.9);
+	padding: 10px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+.sumbit {
+	width: 100px;
+	text-align: center;
+	margin: 4px;
+	background-color: rgba(19,59,99,.9);
+	color: white;
+	height: fit-content;
+	font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
